@@ -439,17 +439,17 @@ main { padding-top: 56px; }
   display: flex;
   flex-direction: column;
   gap: 4px;
-  padding: 16px 0;
+  padding: 9px 0;
   border-bottom: 1px solid rgba(143, 111, 54, 0.3);
 }
 @media (min-width: 640px) {
   .detail-table__row { flex-direction: row; align-items: baseline; gap: 20px; }
+  .detail-table__label { flex: 0 0 140px; }
 }
 .detail-table__label {
   font-size: 0.78rem;
   letter-spacing: 0.1em;
   color: var(--color-gold-deep);
-  flex: 0 0 140px;
 }
 .detail-table__value {
   font-size: 0.95rem;
