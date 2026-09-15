@@ -639,6 +639,32 @@ main { padding-top: 56px; }
   margin: 0;
 }
 
+/* ---------- GMWBA note ---------- */
+.gmwba-note {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(143, 111, 54, 0.3);
+  text-align: center;
+}
+.gmwba-note__text {
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: var(--color-ink-soft);
+  margin: 0 0 18px;
+}
+.gmwba-note__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+@media (min-width: 640px) {
+  .gmwba-note__links {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
 /* ---------- FAQ ---------- */
 .faq-list { display: flex; flex-direction: column; gap: 12px; }
 .faq-item {
