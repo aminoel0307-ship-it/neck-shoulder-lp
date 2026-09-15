@@ -540,6 +540,51 @@ main { padding-top: 56px; }
   margin: 0;
 }
 
+/* ---------- Overseas (海外受講実績) ---------- */
+.overseas {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media (min-width: 769px) {
+  .overseas {
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+  }
+}
+.overseas__photo-frame {
+  width: 100%;
+  border: 1px solid rgba(198, 161, 91, 0.4);
+  overflow: hidden;
+}
+@media (min-width: 769px) {
+  .overseas__photo-frame {
+    flex: 0 0 45%;
+  }
+}
+.overseas__photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overseas__body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.overseas__body .section__text {
+  margin: 0;
+}
+.overseas__note {
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: var(--color-gold-light);
+  margin: 0;
+  padding-top: 14px;
+  border-top: 1px solid rgba(198, 161, 91, 0.25);
+}
+
 /* ---------- Price table ---------- */
 .price-grid {
   display: grid;
