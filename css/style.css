@@ -554,12 +554,15 @@ main { padding-top: 56px; }
   }
 }
 .overseas__photo-frame {
-  width: 100%;
+  width: 88%;
+  margin: 0 auto;
   border: 1px solid rgba(198, 161, 91, 0.4);
   overflow: hidden;
 }
 @media (min-width: 769px) {
   .overseas__photo-frame {
+    width: auto;
+    margin: 0;
     flex: 0 0 45%;
   }
 }
@@ -577,12 +580,22 @@ main { padding-top: 56px; }
   margin: 0;
 }
 .overseas__note {
-  font-size: 0.8rem;
-  letter-spacing: 0.02em;
-  color: var(--color-gold-light);
   margin: 0;
   padding-top: 14px;
   border-top: 1px solid rgba(198, 161, 91, 0.25);
+}
+.overseas__note-label {
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  color: var(--color-gold);
+  margin: 0 0 6px;
+}
+.overseas__note-names {
+  font-size: 0.85rem;
+  letter-spacing: 0.01em;
+  color: var(--color-gold-light);
+  line-height: 1.7;
+  margin: 0;
 }
 
 /* ---------- Price table ---------- */
