@@ -139,8 +139,11 @@ Neck & Shoulderでは、首・肩だけでなく、上半身全体のバラン�
 
 ## 申込みリンク（公式LINE URL）について【重要】
 
-- 技術スクールの申込み・相談導線は「aminoel beauty academy」公式LINE（`https://lin.ee/C0byPWO`）に統一する
-- `js/config.js` の `applyUrl` で一元管理しており、全CTAボタン（`.js-cta`）に自動反映される
+- 技術スクールの申込み・相談導線は「aminoel beauty academy」公式LINE（LINE ID: `@161uzomr`）に統一する
+- 「申込む」系CTA（`.js-cta-apply`）と「受講前に相談する」系CTA（`.js-cta-consult`）でリンク先を分けている
+  - 申込CTA：`js/config.js` の `applyUrl` — 公式LINEのトーク画面を開き「ネック＆ショルダー受講希望」が入力された状態になるLINE公式URLスキーム（`https://line.me/R/oaMessage/%40161uzomr/?...`）
+  - 相談CTA：`js/config.js` の `consultUrl` — 通常のLINE友だち追加URL（`https://lin.ee/C0byPWO`）
+- ページ内の該当CTAボタンに自動反映される
 - URLを変更する場合は、必ず利用者に確認すること
 
 ## 基本方針

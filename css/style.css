@@ -94,6 +94,18 @@ h1, h2, h3, p { margin: 0; }
   box-shadow: none;
 }
 
+.btn--outline-ivory {
+  background: transparent;
+  color: var(--color-gold-light);
+  border-color: rgba(198, 161, 91, 0.5);
+}
+.btn--outline-ivory:hover,
+.btn--outline-ivory:focus-visible {
+  background: rgba(198, 161, 91, 0.1);
+  transform: none;
+  box-shadow: none;
+}
+
 .btn--large {
   padding: 18px 40px;
   font-size: clamp(0.95rem, 1.6vw, 1.05rem);
@@ -286,6 +298,14 @@ main { padding-top: 56px; }
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 14px;
+}
+.hero__consult-note {
+  margin: 14px 0 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--color-gold-light);
+  opacity: 0.85;
 }
 .hero__scroll {
   position: absolute;
@@ -632,6 +652,12 @@ main { padding-top: 56px; }
   margin: 0 0 4px;
 }
 .price-card__note { font-size: 0.78rem; color: var(--color-ink-soft); margin: 0; }
+.price-card__note--sub {
+  margin-top: 8px;
+  font-size: 0.76rem;
+  line-height: 1.6;
+  color: var(--color-gold-deep);
+}
 .price-includes {
   text-align: center;
   font-size: 0.88rem;
