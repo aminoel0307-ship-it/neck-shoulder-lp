@@ -157,6 +157,12 @@ h1, h2, h3, p { margin: 0; }
   gap: 14px;
   flex-shrink: 0;
 }
+.site-header__logo { white-space: nowrap; }
+@media (max-width: 380px) {
+  .site-header__inner { gap: 8px; }
+  .site-header__actions { gap: 10px; }
+  .site-header__actions .btn--small { padding-left: 12px; padding-right: 12px; }
+}
 .lang-switch {
   font-size: 0.78rem;
   color: var(--color-gold-light);
